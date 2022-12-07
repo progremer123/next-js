@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 const AboutPage = () => {
-  const name = '정석현'
+  const name = '백이랑';
   return (
     <div>
       <Head>
@@ -10,7 +10,7 @@ const AboutPage = () => {
       <hi>about page</hi>
       <p>안녕하세요, {name} 님!</p>
     </div>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;
